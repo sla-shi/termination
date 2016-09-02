@@ -1,0 +1,76 @@
+
+  
+    #toolbarViewerMiddle { display: none; }
+  #secondaryToolbarToggle { display: none; }
+
+  #toolbarViewerLeft { display: none; }
+  #toolbarViewerRight { display: none; }
+
+  #viewFind { display: none; }
+
+  #viewAttachments { display: none; }
+
+  .openFile { display: none; }
+
+  .download { display: none; }
+
+  .bookmark { display: none; }
+
+  .secondaryToolbar { display: none; }
+
+
+  #viewerContainer, #mainContainer {
+    background-color: white;
+    top: 0px;
+    
+  }
+
+  #toolbarContainer {
+    
+    background-image: none;
+    background-color: white;
+    box-shadow: none;
+  }
+  
+  .page {
+  
+  border: none;
+}
+
+
+.btn, .btn-large,
+.btn-flat {
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  outline: 0;
+  
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn i, .btn-large i,
+.btn-floating i,
+.btn-large i,
+.btn-flat i {
+  font-size: 1.3rem;
+  line-height: inherit;
+}
+
+.btn, .btn-large {
+  text-decoration: none;
+  color: #fff;
+  background-color: #26a69a;
+  text-align: center;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer;
+  width: 30%;
+  font-family: "Roboto", sans-serif;
+}
+.btn:hover, .btn-large:hover {
+  background-color: #2bbbad;
+}

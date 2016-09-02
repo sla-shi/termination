@@ -1,0 +1,47 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  address: MyString
+  city: MyString
+  zip: MyString
+  state: MyString
+  ssn: MyString
+  contract_signed_date: 2016-08-23
+  dk_contract_signed_date: false
+  agreement: MyString
+  dk_agreement_number: false
+  type_of_contract: MyString
+  dk_type_of_contract: false
+  renewal_date: 2016-08-23
+  dk_renewal_date: false
+  conditional_letter: MyString
+  agree_if_less_than: MyString
+  dont_pay_a_dime: false
+  reserved1: MyString
+  reserved2: 1
+  reserved3: false
+  reserved4: 2016-08-23
+
+two:
+  name: MyString
+  address: MyString
+  city: MyString
+  zip: MyString
+  state: MyString
+  ssn: MyString
+  contract_signed_date: 2016-08-23
+  dk_contract_signed_date: false
+  agreement: MyString
+  dk_agreement_number: false
+  type_of_contract: MyString
+  dk_type_of_contract: false
+  renewal_date: 2016-08-23
+  dk_renewal_date: false
+  conditional_letter: MyString
+  agree_if_less_than: MyString
+  dont_pay_a_dime: false
+  reserved1: MyString
+  reserved2: 1
+  reserved3: false
+  reserved4: 2016-08-23
