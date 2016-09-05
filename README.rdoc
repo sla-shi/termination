@@ -1,15 +1,24 @@
-== README
+# Introduction
+This web app allows users to quickly create a PDF of the termination letter for the carrier services.
+The app is written with Ruby on Rails 4.2.4, React JS, Material Design styles from materializecss.com 
+and PDF JS by Mozilla.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# License
+Unauthorized copying of this project, via any medium is strictly prohibited.
+Proprietary and confidential. 
+Written by Viacheslav Shybaiev <slashi@gmail.com> September 2016.
 
-Things you may want to cover:
+# Installation
+##Add to Gemfile
+gem 'react-rails', '~> 1.0'
+gem 'prawn'
 
-* Ruby version
+## Install Gems 
+bundle install
+rails g react:install
+gem install prawn
+bundle install
 
-* System dependencies
-
-* Configuration
 
 * Database creation
 
@@ -20,8 +29,6 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...
 
 
 Please feel free to use a different markup language if you do not plan to run
