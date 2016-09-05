@@ -21,7 +21,10 @@
           className: 'col s12'
           id: 'pdfcontainer'
           display: 'block'
-          src: '/pdfjs/web/viewer.html?file=https://ruby-test-sla-shi.c9users.io/'+@state.uid+'.pdf?' + 
+          src: '/pdfjs/web/viewer.html?file=' + 
+            window.location.protocol + '//' +
+            window.location.hostname + '/' +
+            @state.uid + '.pdf?' + 
             Math.floor((1 + Math.random()) * 0x10000)
             .toString(16)
             .substring(1)
