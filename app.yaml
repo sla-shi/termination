@@ -1,3 +1,10 @@
 entrypoint: bundle exec rackup -p $PORT
 runtime: ruby
 vm: true
+env_variables:
+  SECRET_KEY_BASE: secret_key_no_quotes
+health_check:
+  enable_health_check: False
+manual_scaling:
+  instances: 1
+
