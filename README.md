@@ -11,12 +11,16 @@ Written by Viacheslav Shybaiev <slashi@gmail.com> September 2016.
 # Installation
 ##Add to Gemfile
 gem 'react-rails', '~> 1.0'
+
 gem 'prawn'
 
 ## Install Gems 
 bundle install
+
 rails g react:install
+
 gem install prawn
+
 bundle install
 
 
@@ -28,8 +32,19 @@ bundle install
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+# Deployment instructions
+## Google Cloud
+Create the GCP project in the US Zone and create the app instance. 
+With the console command line type:
 
+mkdir src
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+git clone https://github.com/sla-shi/termination.git
+
+cd termination
+
+bundle install
+
+rake db:migrate
+
+bundle exec rails server --port=8080
