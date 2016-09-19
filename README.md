@@ -6,7 +6,8 @@ and PDF JS by Mozilla.
 # License
 Unauthorized copying of this project, via any medium is strictly prohibited.
 Proprietary and confidential. 
-Written by Viacheslav Shybaiev <slashi@gmail.com> September 2016.
+Written by Viacheslav Shybaiev <slashi@gmail.com> for Mateusz Romanowski <mateusz.romanowski@gmail.com>
+September 2016
 
 # Installation
 ##Add to Gemfile

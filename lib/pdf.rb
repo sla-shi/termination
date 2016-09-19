@@ -43,8 +43,10 @@ class ReportPdf
     text @carriers.address_by_code(@record.reserved1)
 
     @signed_date = "signed " + @record.contract_signed_date.to_s(:pdf) if @record.contract_signed_date
-    @renewed_date = ", renewed " + @record.renewal_date.to_s(:pdf)
-    @signed_date += @renewed_date if @signed_date
+    if @record.renewal_date
+      @renewed_date = ", renewed " + @record.renewal_date.to_s(:pdf) if @record.renewal_date
+      @signed_date += @renewed_date if @signed_date
+    end
     
     @fee1 = "there is no Early Termination Fee" if @record.conditional_letter
     @fee2 = "Early Termination Fee is already lower than " + @record.agree_if_less_than + " USD" unless @record.agree_if_less_than

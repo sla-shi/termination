@@ -38,21 +38,21 @@
       showStep3: false
 
 # Test data      
-      selectCarrier: 'att'
+      # selectCarrier: 'att'
 
-      name: 'John Smith'
-      address: '1st Ave'
-      city: 'New York'
-      state: 'NY'
-      ssn: '1234567890'
+      # name: 'John Smith'
+      # address: '1st Ave'
+      # city: 'New York'
+      # state: 'NY'
+      # ssn: '1234567890'
 
-      contract_signed_date: '1/09/2010'
-      type_of_contract: 'months24'
-      agreement: 'AG-001'
-      renewal_date: '31/08/2011'
+      # contract_signed_date: '1/09/2010'
+      # type_of_contract: 'months24'
+      # agreement: 'AG-001'
+      # renewal_date: '31/08/2011'
       
-      conditional_letter: 'yes'
-      agree_if_less_than: '100'
+      # conditional_letter: 'yes'
+      # agree_if_less_than: '100'
 
     handleStep3: ->
       
